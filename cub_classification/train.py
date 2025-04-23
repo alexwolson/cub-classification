@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 import pytorch_lightning as pl
-import pytorch_lightning.loggers as WandbLogger
+from pytorch_lightning.loggers import WandbLogger
 from cub_classification.model import CUBModel
 from cub_classification.dataset import CUBDataModule
 
